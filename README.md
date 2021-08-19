@@ -6,7 +6,6 @@
 
 ## Built With
 
-* [Vue.js](https://vuejs.org)
 * [Webpack](https://webpack.js.org)
 * [Sass](https://sass-lang.com)
 * [Skeleton](http://getskeleton.com)
