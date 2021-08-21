@@ -1,0 +1,25 @@
+root = true
+
+[*.{json,yml,md}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+
+[*.js]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+block_comment_start = /**
+block_comment = *
+block_comment_end = */
+
+[*.{scss,css}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true

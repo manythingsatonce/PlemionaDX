@@ -1,0 +1,20 @@
+  
+{
+    "manifest_version": 3,
+    "name": "PlemionaDX",
+    "description": "#description#",
+    "version": "#version#",
+    "homepage_url": "#homepage_url#",
+    "author": "#author#",
+    "icons": {
+        "16": "images/logo-16.png",
+        "32": "images/logo-32.png",
+        "96": "images/logo-96.png",
+        "160": "images/logo-160.png"
+    },
+    "permissions": [],
+    "content_scripts": [{
+        "matches": ["*://*.plemiona.pl/*"],
+        "js": ["content.js"]
+    }]
+}

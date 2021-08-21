@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    "stylelint-selector-bem-pattern"
+  ],
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "no-empty-source": null,
+    "no-descending-specificity": null,
+    "plugin/selector-bem-pattern": {
+      "preset": "bem",
+      "utilitySelectors": "^\\.(u|l)-[a-z]+$",
+      "ignoreSelectors": []
+    }
+  }
+}

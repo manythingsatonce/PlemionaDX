@@ -1,0 +1,9 @@
+# NODE
+package-lock.json
+node_modules/
+
+# ENV
+.env
+
+# Build
+build/
