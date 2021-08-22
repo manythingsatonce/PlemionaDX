@@ -26,7 +26,7 @@ module.exports = {
 		content: `${PATHS.src}/js/content.js`,
 	},
 	output: {
-		filename: '[name].js',
+		filename: 'js/[name].js',
 		path: PATHS.build,
 		publicPath: '/',
 	},

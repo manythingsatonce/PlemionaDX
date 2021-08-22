@@ -15,6 +15,6 @@
     "permissions": [],
     "content_scripts": [{
         "matches": ["*://*.plemiona.pl/*"],
-        "js": ["content.js"]
+        "js": ["js/content.js"]
     }]
 }
